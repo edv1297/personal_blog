@@ -24,10 +24,26 @@ class About extends Component {
                     At one point after I had gotten into college, I was working three part time jobs after-school and on the week-ends. 
                     <br/>
 
-                    <br/><b>College and Education</b>
+                    <br/><b>College and Education</b><br/>
+                    I attended Williams College for 2 years and absolutely hated the environment I was in and felt like I was wasting time. 
+                    The education at Williams was unparalleled and helped me grow but I had to do work on things that mattered so I moved back home
+                    to Miami, Florida where I now attend Florida Internationl University pursuing Computer Science and Math.<br/>
+
+                    <br/><b>Projects and Passions</b><br/>
+                    I am working on building out Captain Code, a Software Research and Development firm in South Florida where students can come together to learn and 
+                    collaborate on projects that they would not normally have the resources for.
+                    <br/><br/> If I had someone that would have empowered me to learn
+                    how to code I would have been significantly happier to find my passion early on. This company will also provide software solutions to
+                    other corporations and business as the main source of revenue but that is not the sole purpose.
+                    <br/>
 
                     </p>
-                    <img src = "https://picsum.photos/300/200" alt = ""/>
+                    <div className = "image-container">
+                    <img id ="about-image-container" src = "https://picsum.photos/300/200" alt = ""/>
+                    <img id ="about-image-container" src = "https://picsum.photos/300/200" alt = ""/>
+                    <img id ="about-image-container" src = "https://picsum.photos/300/200" alt = ""/>
+
+                    </div>
                 </div>
             </div>
         );
