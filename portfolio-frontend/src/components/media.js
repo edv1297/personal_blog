@@ -3,7 +3,7 @@ import {Grid,Cell} from 'react-mdl';
 class Media extends Component {
     render() {
         return (
-            <div>
+            <div className = "content">
                 <h1 className = "header-text">media</h1>
                 <Grid className = "grid-container">
                     <Cell col={4}>

@@ -15,7 +15,7 @@ class App extends Component {
                   <a href="/resume">Resume</a>
                   <a href="/projects">Projects</a>
                   <a href="/media">Media</a>
-                  <a href="#">Link</a>
+                  {/* <a href="#">Link</a> */}
               </Navigation>
           </Drawer>
         </Layout>

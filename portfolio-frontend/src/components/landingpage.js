@@ -10,7 +10,7 @@ class LandingPage extends Component {
             <div className = "content">
             <Jumbotron id= "jumbo-bg">
             <div className = "content-container">
-                <img className = "landing-image" src = {PortfolioPic}/>
+                <img className = "landing-image" src = {PortfolioPic} alt = ""/>
                 <h1 id = "landing-header">Hi, my name is Eddy.</h1>
                 <p id = "landing-header-content">
                     I am studying Computer Science and Math at Florida International University.<br/>

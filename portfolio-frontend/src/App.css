@@ -22,10 +22,22 @@
   margin-top:auto;
   text-align: center;
   height:50vh;
+  
+}
+.project-container{
+  display:flex;
+  flex-direction: row;
+}
+.webpage-content-container{
+  display: flex;
+  flex-direction: row;
+  width:70%;
+  margin:auto;
+  justify-content: space-between;
 }
 .content{
   background: #f7f7f7;
-  width:80%;
+  width:100%;
   margin:auto;
   height:100vh;
   width:100%;
@@ -45,6 +57,8 @@
 .header-text{
   color:rgb(13, 42, 83);
   text-align: center;
+  margin-left:3.2vw;
+  position:relative;
 } 
 .header-bg{
   background-color:white;
@@ -82,4 +96,10 @@
 .nav-brand-text{
   color:white;
   font-size: 1.3em;
+}
+
+#paragraph-container{
+  width:50%;
+  position: relative;
+  color:rgb(13, 42, 83);
 }
