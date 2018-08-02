@@ -1,20 +1,23 @@
 import React, { Component } from 'react';
+import {Container, Row, Col} from 'reactstrap';
 
 class About extends Component {
     render() {
         return (
-            <div className = "content">
-                <h1 className = "header-text">About</h1>
-                <div className = "webpage-content-container">
-                    
-                    <p id = "paragraph-container">
+            <Container>
+                <Row>
+                    <Col xs = '4'>
                     <b>Fundamentals</b> <br/>
                     My name is Eddy and I firmly believe that software will 
                     allow us to enjoy an easier and more enjoyable life. I am insanely 
                     motivated and passionate about helping other people. I want to empower and help 
                     build dreams from the ground up. If you have some idea that you want to build, <a href = "/contact">chat</a> with me.<br/>
                     <br/>
-                    
+                    </Col>
+                    <Col style = {{textAlign:'center'}}xs = '8'>
+                     <img id ="about-image-container" src = "https://picsum.photos/300/200" alt = ""/>
+                    </Col>
+                </Row>
                     <b>Background</b><br/>
 
                     I was born in Cuba and emigrated to the US when I was 2.5 years old. I have been raised in Miami, Florida ever since.
@@ -37,15 +40,15 @@ class About extends Component {
                     other corporations and business as the main source of revenue but that is not the sole purpose.
                     <br/>
 
-                    </p>
+               
                     <div className = "image-container">
-                    <img id ="about-image-container" src = "https://picsum.photos/300/200" alt = ""/>
+                    
                     <img id ="about-image-container" src = "https://picsum.photos/300/200" alt = ""/>
                     <img id ="about-image-container" src = "https://picsum.photos/300/200" alt = ""/>
 
                     </div>
-                </div>
-            </div>
+           
+            </Container>
         );
     }
 }

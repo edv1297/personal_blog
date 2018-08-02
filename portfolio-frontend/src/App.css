@@ -17,13 +17,23 @@
 .App-title {
   font-size: 1.5em;
 }
-
+@media only screen and (min-width: 600px) {
+.mdl-layout__drawer-button{
+  margin:0!important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .mdl-layout__drawer-button{
+  visibility: hidden;
+  }
+}
 .content-container{
   margin-top:auto;
   text-align: center;
   height:50vh;
   
 }
+
 .project-container{
   display:flex;
   flex-direction: row;
@@ -100,6 +110,12 @@
   width:15vw;
   height:15vw;
   border-radius: 50%;
+}@media only screen and (max-width: 600px) {
+  .landing-image{
+    width:80%;
+    height:auto;
+    border-radius: 50%;
+  }
 }
 
 .navbar{

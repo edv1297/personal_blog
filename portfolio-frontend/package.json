@@ -10,7 +10,8 @@
     "react-dom": "^16.4.0",
     "react-mdl": "^1.11.0",
     "react-router-dom": "^4.3.0",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "reactstrap": "^6.3.0"
   },
   "scripts": {
     "start": "react-scripts start",

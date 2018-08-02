@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div style = {{backgroundColor: "#f7f7f7"}}>
         
-        <Layout>  
+        <Layout className = "toggle">  
             <Drawer title="Title">
               <Navigation>
                   <a href="/resume">Resume</a>
